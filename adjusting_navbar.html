@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>Workshop 1 - 5.3.18</title>
+		<style type="text/css">
+			
+			#navBar{
+				font-size: 5em;
+				font-family: verdana;
+				text-align: center;
+				display: table;
+				width: 100%
+			}
+
+			.navElement {
+				width: 33%;
+				display: table-cell;
+				background-color: #eeeeee;
+				overflow: hidden;
+			}
+
+			.navImage{
+				width: 100%;
+				height: 20vw;
+			}
+
+
+			@media screen and (max-width: 1000px){
+				#navBar{
+					font-size: 3em;
+				}
+			}
+
+
+			@media screen and (max-width: 750px){
+				.navElement{
+					display: table-row;
+				}
+
+				.navImage{
+					display: inline-block;
+					float: left;
+					width: 50%;
+					height: 100%;
+				}
+
+			}
+
+		</style>
+	</head>
+
+	<body>
+		
+		<div id="navBar">
+
+			<div class="navElement">
+				<img src="home.jpg" class="navImage">
+				<p p class="navText"> Home</p>
+			</div>
+
+			<div class="navElement">
+				<img src="phone.jpg" class="navImage">
+				<p class="navText">Contact</p>
+			</div>
+
+			<div class="navElement">
+				<img src="article.png" class="navImage">
+				<p p class="navText">Article</p>
+			</div>
+
+		</div>
+
+	</body>
+
+</html>
